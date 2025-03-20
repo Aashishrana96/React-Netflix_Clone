@@ -1,0 +1,59 @@
+.footer {
+    padding: 30px 3%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.footer-icons {
+    display: flex;
+    gap: 20px;
+    margin: 40px 0;
+}
+
+.footer-icons img {
+    width: 30px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
+}
+
+
+.footer-icons img:nth-child(1):hover { 
+    filter: brightness(0) saturate(100%) invert(14%) sepia(97%) saturate(7485%) hue-rotate(360deg) brightness(102%) contrast(118%);
+    transform: scale(1.1);
+}
+
+.footer-icons img:nth-child(2):hover { 
+    filter: brightness(0) saturate(100%) invert(15%) sepia(90%) saturate(2000%) hue-rotate(220deg) brightness(90%) contrast(120%);
+    transform: scale(1.1);
+    transition: filter 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.footer-icons img:nth-child(3):hover { 
+    filter: invert(40%) sepia(91%) saturate(1034%) hue-rotate(174deg) brightness(96%) contrast(101%);
+    transform: scale(1.1);
+}
+
+.footer-icons img:nth-child(4):hover { 
+    filter: invert(41%) sepia(77%) saturate(2377%) hue-rotate(305deg) brightness(97%) contrast(102%);
+    transform: scale(1.1);
+}
+
+.footer ul {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 15px;
+    margin-bottom: 3px;
+    list-style: none;
+    cursor: pointer;
+}
+
+.footer ul li:hover {
+    filter: brightness(0) saturate(100%) invert(14%) sepia(97%) saturate(7485%) hue-rotate(360deg) brightness(102%) contrast(118%);
+    transform: scale(1.1);
+}
+
+.copyright-text {
+    color: gray;
+    font-size: 14px;
+   margin-top: 30px;
+}
